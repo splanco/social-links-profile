@@ -41,7 +41,7 @@ main {
     border-radius: 0.7rem;
 }
 
-.card-image {
+.profile-image {
     width: clamp(70px, 25%, 200px);
     border-radius: 100%;
 }
