@@ -45,3 +45,13 @@ main {
     width: clamp(70px, 25%, 200px);
     border-radius: 100%;
 }
+
+.name {
+    font-size: 135%;
+    font-weight: 600;
+}
+
+.location {
+    font-size: 80%;
+    color: var(--green);
+}
