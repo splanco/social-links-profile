@@ -60,3 +60,24 @@ main {
     font-size: 85%;
     font-weight: 400;
 }
+
+.link-container {
+    width: 100%;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    font-size: 75%;
+    font-weight: 700;
+    background-color: var(--grey-700);
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-block-end: 0.75rem;
+}
+
+.link:hover {
+    background-color: var(--green);
+    color: var(--grey-800);
+    cursor: pointer;
+}
